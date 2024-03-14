@@ -20,4 +20,6 @@ toppings = ['Hot Fudge', 'Oreo', 'Marshmallow']
 for one in flavors:
     for two in toppings:
         print(one, 'topped with', two)
+        
+fuck u
    
