@@ -22,4 +22,8 @@ for one in flavors:
         print(one, 'topped with', two)
         
 
+number = 1
+while number < 5:
+    print(number)
+    number = number + 1
    
