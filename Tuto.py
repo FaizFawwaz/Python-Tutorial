@@ -93,3 +93,19 @@ number_kwarg(integer = '2309')
 def number_kwarg(**number):
     print('My number is:' + number['integer'] + ' ' + 'My other number:' + number['integer2'])
 number_kwarg(integer = '2309', integer2 = '1234') 
+
+num_int = 7
+type(num_int)
+
+num_str = '7'
+type(num_str)
+
+num_str_conv = int(num_str)
+num_sum = num_int + num_str_conv
+print(num_sum)
+
+dict_type = {'name': 'Faiz', 'age': 28, 'hair': 'N/A'}
+dict_type.items()
+dict_type.values()
+dict_type.keys()
+list(dict_type.keys())
