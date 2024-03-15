@@ -109,3 +109,6 @@ dict_type.items()
 dict_type.values()
 dict_type.keys()
 list(dict_type.keys())
+
+x = 3
+print(x)
