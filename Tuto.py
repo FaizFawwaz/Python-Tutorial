@@ -27,5 +27,75 @@ while number < 5:
     print(number)
     number = number + 1
     
+number = 1
+while number < 10:
+    print(number)
+    number = number + 1
+    
+number = 0
+while number < 5:
+    print(number)
+    if number ==3:
+        break
+    number = number + 1
+    
+number = 0
+while number < 5:
+    print(number)
+    if number == 6:
+        break
+    number = number + 1
+else:
+    print('No Longer < 5')
+    
+number = 0
+while number < 5:
+    number = number + 1
+    if number == 3:
+        continue
+    print(number)  
+else:
+    print('No Longer < 5')
+    
+def first_func():
+    print('We did it')
+first_func()
+
+
+def number_squared(number):
+    print(number**2)
+number_squared(5)
+
+def number_squared_cust(number,power):
+    print(number**power) 
+number_squared_cust(5,3) 
+
+def number_args(*number):
+    print(number[0]*number[1])
+number_args(5,6,1,2,8)
+
+
+
+args_tuple = (5,6,1,2,8)
+
+def number_args(*number):
+    print(number[0]*number[1])
+number_args(*args_tuple)
+
+def number_squared_cust(number,power):
+    print(number**power)
+number_squared_cust(power = 5,number=3)
+
+  
+
+
+
+
+
+    
+
+    
+    
+    
 
    
