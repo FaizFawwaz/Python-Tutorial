@@ -86,16 +86,10 @@ def number_squared_cust(number,power):
     print(number**power)
 number_squared_cust(power = 5,number=3)
 
-  
+def number_kwarg(**number):
+    print('My number is:' + number['integer'])
+number_kwarg(integer = '2309') 
 
-
-
-
-
-    
-
-    
-    
-    
-
-   
+def number_kwarg(**number):
+    print('My number is:' + number['integer'] + ' ' + 'My other number:' + number['integer2'])
+number_kwarg(integer = '2309', integer2 = '1234') 
